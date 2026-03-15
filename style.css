@@ -1,0 +1,506 @@
+body{
+font-family: Arial;
+}
+
+/* ÜST BAR */
+
+.topbar{
+background:#2b2b2b;
+color:white;
+padding:10px 0;
+}
+
+.logo span{
+color:#f1b100;
+}
+
+/* MENÜ */
+
+.menu{
+background:#0b2c4d;
+}
+
+/* HERO */
+
+.hero{
+background:url("logo.png") center center;
+background-size:contain;
+background-repeat:no-repeat;
+background-color:#111;
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero-text{
+color:white;
+max-width:600px;
+margin-left:50px;
+}
+
+.hero-text h1{
+font-size:48px;
+font-weight:bold;
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+
+/* MOBİL */
+
+@media(max-width:768px){
+
+.hero{
+height:60vh;
+text-align:center;
+}
+
+.hero-text{
+margin:0 auto;
+}
+
+.hero-text h1{
+font-size:30px;
+}
+
+}
+
+.hero{
+height:80vh;
+display:flex;
+align-items:center;
+
+background-image:url("logo.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+.hero{
+height:80vh;
+display:flex;
+align-items:center;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+.hero-text{
+color:black;
+max-width:500px;
+margin-left:80px;
+}
+
+.hero-text h1{
+font-size:50px;
+font-weight:bold;
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.hero{
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:flex-start;
+padding-left:80px;
+background-size:cover;
+background-position:center;
+}
+
+.about-section{
+padding:80px 0;
+background:#f5f5f5;
+}
+
+.about-text{
+max-width:700px;
+margin:auto;
+line-height:1.8;
+font-size:16px;
+color:#555;
+}
+
+.about-text p{
+margin-bottom:25px;
+}
+.about-area{
+padding:80px 0;
+background:#f2f2f2;
+}
+
+.about-container{
+width:700px;
+margin:auto;
+}
+
+.about-container p{
+color:#6c7a89;
+font-size:15px;
+line-height:28px;
+margin-bottom:25px;
+}
+.page-header{
+background:#3f4f6b;
+padding:80px 0;
+color:white;
+text-align:center;
+}
+
+.page-header h1{
+font-size:60px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.page-header p{
+font-size:14px;
+color:#cbd3e0;
+}
+
+.page-header a{
+color:#cbd3e0;
+text-decoration:none;
+}
+
+.menu{
+background:#0f3a63;
+}
+
+.page-header{
+background:#3f4f6b;
+padding:80px 0;
+color:white;
+}
+
+.page-header h1{
+font-size:60px;
+font-weight:700;
+}
+
+.page-header p{
+font-size:14px;
+color:#cbd3e0;
+}
+
+.about-section{
+padding:80px 0;
+background:#f4f4f4;
+}
+
+.about-text{
+max-width:700px;
+margin:auto;
+}
+
+.about-text p{
+color:#6c7a89;
+line-height:28px;
+margin-bottom:25px;
+}
+
+.footer{
+background:#031b3b;
+color:white;
+padding:60px 0;
+}
+
+.footer h3{
+font-weight:700;
+}
+
+.footer h5{
+margin-bottom:20px;
+}
+
+.footer-menu{
+list-style:none;
+padding:0;
+}
+
+.footer-menu li{
+margin-bottom:10px;
+}
+
+.footer-menu a{
+color:#bfc7d5;
+text-decoration:none;
+}
+
+.phone-box{
+background:#0c2f5a;
+padding:12px 20px;
+display:inline-block;
+border-radius:6px;
+margin-top:15px;
+}
+
+.footer hr{
+margin:40px 0;
+border-color:#1c3b63;
+}
+
+.copyright{
+text-align:center;
+color:#9fb0c8;
+font-size:14px;
+}
+
+@media (max-width:768px){
+
+.footer{
+text-align:center;
+}
+
+.phone-box{
+display:block;
+margin:auto;
+margin-top:20px;
+}
+
+.footer-menu{
+margin-bottom:20px;
+}
+
+}
+
+.social-icons a{
+color:#6c7a89;
+font-size:20px;
+margin:0 10px;
+text-decoration:none;
+}
+
+.social-icons a:hover{
+color:#0d6efd;
+}
+
+.basvuru{
+padding:100px 0;
+background:#f5f5f5;
+}
+
+.basvuru h1{
+font-size:48px;
+font-weight:700;
+color:#1d2b4f;
+}
+
+.form-box{
+background:white;
+padding:40px;
+border-radius:6px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+max-width:700px;
+margin:auto;
+}
+
+.form-control{
+padding:12px;
+}
+
+
+.basvuru{
+padding:100px 0;
+background:#f5f5f5;
+}
+
+.basvuru h1{
+font-size:48px;
+font-weight:700;
+color:#1d2b4f;
+}
+
+.form-box{
+background:white;
+padding:40px;
+border-radius:6px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+max-width:700px;
+margin:auto;
+}
+
+.form-control{
+padding:12px;
+}
+
+.page-header{
+background:#3d4f6b;
+color:white;
+padding:80px 0;
+text-align:center;
+}
+
+.page-header h1{
+font-size:60px;
+font-weight:700;
+}
+
+.page-header a{
+color:white;
+text-decoration:none;
+}
+
+.oyuncular{
+padding:100px 0;
+background:#f5f5f5;
+text-align:center;
+}
+
+.oyuncu-listesi{
+list-style:none;
+padding:0;
+font-size:22px;
+font-weight:500;
+}
+
+.oyuncu-listesi li{
+background:white;
+margin:10px auto;
+padding:15px;
+max-width:400px;
+border-radius:6px;
+box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.contact-boxes{
+padding:80px 0;
+background:#f5f5f5;
+}
+
+.box{
+background:white;
+padding:40px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form{
+background:#0b1e44;
+padding:100px 0;
+color:white;
+text-align:center;
+}
+
+.form-area{
+max-width:500px;
+margin:auto;
+}
+
+.form-area input,
+.form-area textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+}
+
+.form-area button{
+background:#00bcd4;
+border:none;
+padding:12px 30px;
+color:white;
+}
+
+.forma{
+width:100%;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.btn-info{
+background:#00bcd4;
+border:none;
+transition:0.3s;
+}
+
+.btn-info:hover{
+background:#0097a7;
+transform:scale(1.1);
+}
+
+.navbar-nav .nav-link{
+color:#ffffff;
+font-weight:500;
+transition:0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+color:#00c6d7;
+transform:scale(1.05);
+}
+#loader{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:black;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:9999;
+}
+
+.spinner{
+width:50px;
+height:50px;
+border:6px solid white;
+border-top:6px solid transparent;
+border-radius:50%;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+body.loaded #loader{
+display:none;
+}
+
+#loader{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:black;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:9999;
+}
+
+.loader-logo{
+width:120px;
+animation:spin 2s linear infinite;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+body.loaded #loader{
+display:none;
+}
+
+.forma{
+width:100%;
+border-radius:10px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.forma:hover{
+transform:scale(1.08);
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
