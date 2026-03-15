@@ -548,3 +548,14 @@ clip-path:polygon(0 0, 85% 0, 100% 100%, 0% 100%);
 margin-left:20px;
 font-size:14px;
 }
+
+.insta{
+color:white;
+font-size:20px;
+margin-left:15px;
+text-decoration:none;
+}
+
+.insta:hover{
+color:#E1306C;
+}
