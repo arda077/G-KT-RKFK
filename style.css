@@ -504,3 +504,7 @@ cursor:pointer;
 transform:scale(1.08);
 box-shadow:0 10px 25px rgba(0,0,0,0.4);
 }
+
+.menu-logo{
+width:60px;
+}
