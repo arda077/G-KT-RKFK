@@ -508,3 +508,24 @@ box-shadow:0 10px 25px rgba(0,0,0,0.4);
 .menu-logo{
 width:60px;
 }
+
+
+.header-top{
+background:#0b2a52;
+color:white;
+padding:15px 0;
+position:relative;
+}
+
+.site-title{
+font-size:28px;
+font-weight:700;
+background:#17b8c4;
+padding:10px 30px;
+clip-path:polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.header-contact span{
+margin-left:20px;
+font-size:14px;
+}
