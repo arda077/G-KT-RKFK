@@ -573,3 +573,23 @@ section.active{
 opacity:1;
 transform: translateY(0);
 }
+
+
+.hero-content h1 {
+  font-size: 55px;
+  font-weight: 900;
+  background: linear-gradient(45deg, #ffffff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+}
+
+.hero-content p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero {
+  position: relative;
+}
