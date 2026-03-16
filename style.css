@@ -563,6 +563,12 @@ color:#E1306C;
 }
 
 
+.hero-content {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+}
+
 section.active{
 opacity:1;
 transform: translateY(0);
